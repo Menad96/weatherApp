@@ -200,6 +200,19 @@ a:hover{
         font-size: 1em;
         top: 10%;
     }
+    .day-weather-information .temp h1 span:nth-child(2){
+        font-size: 0.5em;
+        position: relative;
+        right: 20px;
+    }
+    .day-weather-information .temp h1 span:nth-child(1){
+        font-size: 0.8em;
+        right: 15px;
+        bottom: 15px;
+    }
+    .day-weather-information .more-info .wind span:nth-child(2),.day-weather-information .more-info .humidity span:nth-child(2){
+        font-size: 1.2em;
+     }
     .week-weather{
         grid-column: 2 / 3;
         grid-row: 1 / 3;
