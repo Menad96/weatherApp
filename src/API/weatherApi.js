@@ -1,8 +1,8 @@
 import { createClient } from 'pexels'
 
 
-const API_KEY = 'Your API KEY openWeather'
-const API_KEY_IMG = 'Your API KEY pexels'
+const API_KEY = '88c9fa19197af333795d4769a876900f'
+const API_KEY_IMG = '563492ad6f91700001000001a4cf056d8281433e8a696873a7937c59'
 export async function weatherInfo(name) {
   const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${name}&lang=fr&appid=${API_KEY}`)
   if (response.ok) {
