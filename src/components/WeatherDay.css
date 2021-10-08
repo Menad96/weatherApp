@@ -1,0 +1,25 @@
+
+.weather-day{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    color: #fff;
+}
+
+.weather-day:hover .icon{
+    transform: scale(1.3);
+}
+.weather-day h1.name-day{
+    font-weight: 200;
+}
+.weather-day h1.day-temp{
+    font-weight: 300;
+}
+.weather-day .icon{
+    height: 70px;
+    width: 70px;
+    display: block;
+    transition: 0.3s ease-in-out;
+}
