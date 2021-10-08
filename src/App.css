@@ -193,6 +193,9 @@ a:hover{
         justify-content: space-around;
         align-items: center;
     }
+    .day-weather-information .temp h1{
+        font-size: 3em;
+    }
     .day-weather-information .temp p{
         font-size: 1em;
         top: 10%;
