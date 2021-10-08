@@ -24,7 +24,7 @@ export async function getImageCity() {
   const query = 'nature'
   const response = await client.photos.search({ query })
   if (response.photos !== null) {
-    const link = await response.photos[Math.round(Math.random() * 15)].src.large
+    const link = await response.photos[Math.round(Math.random() * 15)].src.original
     return link
   }
   return './img/ottawa2.jpeg'
