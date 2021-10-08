@@ -1,6 +1,5 @@
 import React from 'react'
 import './WeatherDay.css'
-import icon from './../icons/wi-day-cloudy.svg'
 
 function WeatherDay({day,degree,code}) {
     return (
